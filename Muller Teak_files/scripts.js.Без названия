@@ -1,0 +1,130 @@
+(function() {
+  var __sections__ = {};
+  (function() {
+    for(var i = 0, s = document.getElementById('sections-script').getAttribute('data-sections').split(','); i < s.length; i++)
+      __sections__[s[i]] = true;
+  })();
+  (function() {
+  if (!__sections__["collection-template-filters"]) return;
+  try {
+    
+
+  var _affirm_config = {
+    public_api_key:  "H9E02KYIFKQ34QYT",
+    script:          "https://cdn1.affirm.com/js/v2/affirm.js"
+  };
+  (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+ // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
+ // Sandbox https://cdn1-sandbox.affirm.com/js/v2/affirm.js
+
+  } catch(e) { console.error(e); }
+})();
+
+(function() {
+  if (!__sections__["collection-template"]) return;
+  try {
+    
+
+  var _affirm_config = {
+    public_api_key:  "H9E02KYIFKQ34QYT",
+    script:          "https://cdn1.affirm.com/js/v2/affirm.js"
+  };
+  (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+ // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
+ // Sandbox "https://cdn1-sandbox.affirm.com/js/v2/affirm.js"
+
+  } catch(e) { console.error(e); }
+})();
+
+(function() {
+  if (!__sections__["collection"] && !window.DesignMode) return;
+  try {
+    
+
+  var _affirm_config = {
+    public_api_key:  "H9E02KYIFKQ34QYT",
+    script:          "https://cdn1.affirm.com/js/v2/affirm.js"
+  };
+  (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+ // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
+ // Sandbox "https://cdn1-sandbox.affirm.com/js/v2/affirm.js"
+
+  } catch(e) { console.error(e); }
+})();
+
+(function() {
+  if (!__sections__["page-film"] && !window.DesignMode) return;
+  try {
+    
+
+// Find all iframes
+var $iframes = $( "iframe" );
+ 
+// Find &#x26; save the aspect ratio for all iframes
+$iframes.each(function () {
+  $( this ).data( "ratio", this.height / this.width )
+    // Remove the hardcoded width &#x26; height attributes
+    .removeAttr( "width" )
+    .removeAttr( "height" );
+});
+ 
+// Resize the iframes when the window is resized
+$( window ).resize( function () {
+  $iframes.each( function() {
+    // Get the parent container&#x27;s width
+    var width = $( this ).parent().width();
+    $( this ).width( width )
+      .height( width * $( this ).data( "ratio" ) );
+  });
+// Resize to fix all iframes on page load.
+}).resize();
+
+// Find all iframes
+//var $videos = $( "video" );
+ 
+// Find &#x26; save the aspect ratio for all videos
+//$videos.each(function () {
+  //$( this ).removeAttr( "autoplay" );
+//});
+
+
+  } catch(e) { console.error(e); }
+})();
+
+(function() {
+  if (!__sections__["product-slider"] && !window.DesignMode) return;
+  try {
+    
+// AFFIRM
+  var _affirm_config = {
+    public_api_key:  "H9E02KYIFKQ34QYT",
+    script:          "https://cdn1.affirm.com/js/v2/affirm.js"
+  };
+  (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+ // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
+ // Sandbox "https://cdn1-sandbox.affirm.com/js/v2/affirm.js"
+// SLIDER
+
+
+
+  } catch(e) { console.error(e); }
+})();
+
+(function() {
+  if (!__sections__["product-template-no-purchase"]) return;
+  try {
+    
+
+  var _affirm_config = {
+    public_api_key:  "H9E02KYIFKQ34QYT",
+    script:          "https://cdn1.affirm.com/js/v2/affirm.js"
+  };
+  (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
+ // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
+ // Sandbox "https://cdn1-sandbox.affirm.com/js/v2/affirm.js"
+
+
+  } catch(e) { console.error(e); }
+})();
+
+})();

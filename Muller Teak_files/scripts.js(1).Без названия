@@ -1,0 +1,19 @@
+//sticky header
+function checkSticky(){
+	//console.log("checking scroll depth: " + $(document).scrollTop());
+	$(document).scrollTop()>50?$("body.template-index .site-header").addClass("solid"):$("body.template-index .site-header").removeClass("solid");
+	//$(document).scrollTop()>50?$("body.template-collection .site-header").addClass("solid"):$("body.template-collection .site-header").removeClass("solid");
+  	$(document).scrollTop()>50?$("body.flush-top .site-header").addClass("solid"):$("body.flush-top .site-header").removeClass("solid");
+  		
+  scrolling = false;
+}
+
+var scrolling = false;
+$(window).on('scroll', function(){
+	if( !scrolling ) {
+		scrolling = true;
+		(!window.requestAnimationFrame)
+			? setTimeout(checkSticky, 250)
+			: requestAnimationFrame(checkSticky);
+	}
+});
